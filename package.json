@@ -1,0 +1,111 @@
+{
+  "name": "@zos-apps/logic-pro",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "zos": {
+    "id": "ai.hanzo.logic-pro",
+    "name": "Logic Pro",
+    "icon": "🎵",
+    "category": "creative",
+    "description": "Professional music production",
+    "permissions": [
+      "audio",
+      "microphone",
+      "midi"
+    ],
+    "window": {
+      "defaultSize": {
+        "width": 1200,
+        "height": 800
+      },
+      "resizable": true
+    },
+    "featured": true,
+    "tags": [
+      "music",
+      "production",
+      "daw",
+      "professional"
+    ],
+    "about": "Professional music production and sound design.",
+    "help": [
+      "Create a project",
+      "Add tracks",
+      "Record and mix",
+      "Master and export"
+    ],
+    "docs": "https://zos-apps.github.io/logic-pro",
+    "site": "https://github.com/zos-apps/logic-pro",
+    "features": [
+      "Pro mixing",
+      "Virtual instruments",
+      "Spatial Audio",
+      "Live loops",
+      "Step sequencer"
+    ],
+    "shortcuts": [
+      "Space Play/Stop",
+      "R Record",
+      "⌘T New track"
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/logic-pro"
+    },
+    "releaseDate": "2024-12-31",
+    "support": "https://github.com/zos-apps/logic-pro/issues",
+    "changelog": "https://github.com/zos-apps/logic-pro/releases"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@zos-apps/config": "workspace:*",
+    "tsup": "^8.3.5",
+    "typescript": "^5.7.2"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "description": "Professional music production",
+  "homepage": "https://zos-apps.github.io/logic-pro",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/logic-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/logic-pro/issues"
+  },
+  "keywords": [
+    "zos",
+    "app",
+    "logic-pro",
+    "music",
+    "production",
+    "daw",
+    "professional"
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
